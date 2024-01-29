@@ -18,8 +18,19 @@ profile_Jamal = {
     "weakness": "rain",
 }
 
-profile_Amy.update(profile_Amy2)
+profile_Amy2.update(profile_Amy)
 
-print(profile_Amy["name", "age", "power1", "power2", "weakness"])
-print(profile_Amy2["name", "age", "power1", "power2", "weakness"])
-print(profile_Jamal["name", "age", "power1", "power2", "weakness"])
+for values in profile_Jamal.values():
+    print(values)
+
+print()
+
+for values in profile_Amy.values():
+    print(values)
+
+print()
+
+for values in profile_Amy2.values():
+    print(values)
+
+print()
