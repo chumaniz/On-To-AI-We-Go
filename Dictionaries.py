@@ -18,6 +18,9 @@ profile_Jamal = {
     "weakness": "rain",
 }
 
+# This will print out the values of the dicctionaries.
+# profile_Amy2 was initially empty but will now have profile_Amy's values and keys.
+
 profile_Amy2.update(profile_Amy)
 
 for values in profile_Jamal.values():
