@@ -40,3 +40,10 @@ def calculation(number1, number2):
 number = calculation(8, 4)
 
 print(calculation(8,4))
+
+# Practising default parameters. Basically if you don't change anything, the text by default will show.
+
+def sms(text="Hello, we would like to notify you about your outstanding warranty"):
+    print(text)
+
+sms()
