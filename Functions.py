@@ -47,3 +47,16 @@ def sms(text="Hello, we would like to notify you about your outstanding warranty
     print(text)
 
 sms()
+
+
+# What if we just want to set variable parameters...a placeholder function?
+
+def sms(*text):
+    Bank_account = int(input())
+    if Bank_account <= 100:
+        text = "You're broke"
+        print(text)
+    else:
+        text = "All is good, keep it up"
+        print(text)
+sms()
