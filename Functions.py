@@ -60,3 +60,30 @@ def sms(*text):
         text = "All is good, keep it up"
         print(text)
 sms()
+
+# Scopes, important because one must define a local or global variable 
+
+number = 100000
+
+def nomber():
+    print(number)
+
+nomber()
+
+def nomber2():
+    number2 = 100
+    
+#print(number2) # This will not work because I'm accessing a variable from outside
+                # You can access a global variable because it is outside and global, but a local variable is like Apple software, only people on the inside can access it.
+
+# But there is a trick..adding global next to the local variable and making it accessible from outside too
+number3 = 10
+def nomber3():
+  global number3 
+
+
+
+
+
+
+print(number3)
