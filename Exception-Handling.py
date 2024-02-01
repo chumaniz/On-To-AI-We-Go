@@ -13,3 +13,10 @@ except ValueError:
 except ZeroDivisionError:
     print("Such an action is ridiculous...do better")
 
+try: 
+    print(10/0)
+except ZeroDivisionError:
+    print("Disgrace to all human kind") 
+finally:
+    print("Useless")
+
