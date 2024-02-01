@@ -1,10 +1,15 @@
 # In python, errors are a normal part of lif
 # Right now we aere finding ways to be able to curb them
 
-math_meme = 10/0 # This will not work as 10 cannot be divided by zero
+try:
 
-name = "Zuma"
+    math_meme = 10/0 
+    name = "Zuma"
 
-number = int(name)  # Oh dangerous because a string cannot be turned into an integer
+    number = int(name)  
+    print(number)
+except ValueError:
+    print("You cannot perform this action")
+except ZeroDivisionError:
+    print("Such an action is ridiculous...do better")
 
-print(number)
