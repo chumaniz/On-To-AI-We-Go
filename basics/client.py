@@ -12,5 +12,5 @@ try:
 
     print(message.decode('ascii'))
 except ConnectionRefusedError:
-    print("Heyyi, jou voken naar, sien jy nou nie dat ek slaap nie?! Vok man!!")
+    print("Heyyi, I'm sleeping man stop disturbing me!")
 
