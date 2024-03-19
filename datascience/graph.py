@@ -7,7 +7,7 @@ y = np.sin(x)
 
 
 a = np.linspace(0, 10, 10000)
-b = (5*a-30)**5
+b = 4*a+6
 
 plt.plot(a,b)
 plt.show()
