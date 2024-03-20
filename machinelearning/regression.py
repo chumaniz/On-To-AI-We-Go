@@ -13,3 +13,5 @@ data = data[['age', 'sex', 'studytime',
 
 # Using a dictionary to change sex into a numeric value
 data['sex'] = data['sex'].map({'F':0, 'M':1})
+
+prediction = 'G3'
