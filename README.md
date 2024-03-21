@@ -1,1 +1,1 @@
-I, Amahle Zuma am going to dedicate my time to learnig about python, data science, machine learning and AI
+I'm learning Python and hopefully get to using it for AI and research
