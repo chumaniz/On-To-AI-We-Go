@@ -33,7 +33,8 @@ f = np.linspace(8,80,11)
 g = np.NAN
 
 # Attributes 
-print(b.shape)
-print(b.ndim)
-print(b.size)
-print(b.dtype)
+# print(b.shape)
+# print(b.ndim)
+# print(b.size)
+# print(b.dtype)
+
